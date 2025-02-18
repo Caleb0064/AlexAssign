@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.intro {
+    background-color: rgba(236, 246, 255, 1);
+}
+
+#Banner {
+    padding-top: 25vh;
+    padding-left: 5%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.navbar-brand {
+    position: relative;
+    left: 45px;
+    font-family: DM 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+nav {
+    background-color: rgba(236, 246, 255, 1);
+}
+
+.unique {
+    padding-top: 40%;
+}
+.container .input{
+    border: 0;
+    outline: none;
+}
+
+.search_wrap{
+	width: 500px;
+	margin: 38px auto;
+}
+
+.search_wrap .search_box{
+	position: relative;
+	width: 500px;
+	height: 60px;
+}
+
+.search_wrap .search_box .input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 10px 20px;
+	border-radius: 3px;
+	font-size: 18px;
+}
+
+.search_wrap .search_box .btn{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60px;
+	height: 100%;
+	background: rgba(2, 131, 250, 1);
+	z-index: 1;
+	cursor: pointer;
+}
+
+.search_wrap.search_wrap_1 .search_box .btn{
+	right: 0;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 3px;
+}
+
+
+#img img {
+    width: 450px;
+    height: 550.10px;
+}
+
+#specialty {
+    padding-top: 8%;
+}
+
+#doc {
+    padding-top: 12%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 800;
+}
+
+#doctor {
+    padding-top: 20%;
+    font-weight: 700;
+}
+
+.underline-small {
+    display: inline-block;
+    position: relative;
+}
+
+.underline-small::after {
+    content: '';
+    height: 2px;
+    width: 30%;
+    background: #0283FA;
+    position: absolute;
+    left: 40%;
+    bottom: -8px;
+
+}
+.sub-heading {
+    margin: 1em;
+    padding-left: 5%;
+}
+
+.sub-heading p {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.what {
+    position: relative;
+    font-family: 'Montserrat Alternates';
+    font-weight: 700;
+}
+#woman-smile img {
+    width: 450px;
+    height: 550px;
+    margin-top: 10%;
+    line-height: 1000px;
+    font-family: Montserrat Alternates;
+
+}
+
+#elements img {
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+#content {
+    padding-top: 30rem;
+    padding-bottom: 20rem;
+
+}
+
+.card-heading {
+    color: #0283FA;
+    padding-left: 25%;
+    padding-top: 2%;
+}
+
+.card-text {
+    padding-left: 15%;
+    padding-top: 0%;
+}
+
+.card-title {
+    padding-top: 5%;
+    padding-left: 35%;
+}
+
+#Doctors {
+    padding-top: 8%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    ;
+}
+
+#Doctors::after {
+    display: block;
+}
+
+.socials {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.date {
+    font-size: 15px;
+    background-color: #ECF6FF;
+    color: #0283FA;
+    width: fit-content;
+    padding: 5px;
+    height: 35px;
+    left: 722px;
+    top: 4289px;
+    border-radius: nullpx;
+
+}
+
+.card-part {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.read-more {
+    font-size: 10px;
+    color: #0283FA;
+    width: fit-content;
+    padding: 5px;
+    height: 35px;
+    left: 722px;
+    top: 4289px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-bottom: 5%;
+}
+
+#footer-home {
+    padding-left: 10%;
+}
+
+#footer-company {
+    padding-left: 8%;
+}
+
+#footer-help {
+    padding-left: 10%;
+}
+
+#copyright {
+    padding-top: 70%;
+}
+.status {
+    font-size: 16px;
+    color: #0283FA;
+    font-weight: 700;
+    right: 80px;
+}
+
+
+.profile {
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.rating {
+    background-color: #ECF6FF;
+    width: fit-content;
+    padding: 100px 100px;
+    margin-top: 1000%;
+}
+
+.prev {
+    position: relative;
+    top: 90px;
+}
+
+.next {
+    position: relative;
+    top: 90px;
+}
+
+.slider-inner {
+    display: none;
+}
+
+.slider-inner .card .active {
+    display: inline-block;
+} 
+
